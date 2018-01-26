@@ -18,7 +18,10 @@ function currentLine(line) {
  var list = []
  var i=0
  for(i=0; i<line.length; i++){
- list = list + (i+1)+'. '+line[i]+', ';
+ list = list + (i+1)+'. '+line[i];
+ if(i<line.length-1){
+   list = list + ', '
  }
- return 'The line is currently: '+list - ', '
+ }
+ return 'The line is currently: '+list
 }
