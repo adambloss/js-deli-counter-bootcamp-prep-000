@@ -15,7 +15,7 @@ function nowServing(line){
   }
 }
 function currentLine(line) {
- 'The line is currently'
+ return 'The line is currently'
  if (line.length>0){
    + ': ';
    for(var i = 0;i<line.length;i++){
@@ -25,6 +25,6 @@ a
  }
 }
 else {
- return  ' empty .';
+ 'empty.';
 }
 }
