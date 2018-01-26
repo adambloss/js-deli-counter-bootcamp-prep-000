@@ -5,3 +5,12 @@ function takeANumber(katzDeli, name) {
   return 'Welcome, ' +name+'. You are number '+
   katzDeli.length+' in line.'
 }
+function nowServing(line){
+  if (line.length>0){
+    return 'Currently serving' +
+    line.shift(0)
+  }
+  else {
+    return 'The line is empty'
+  }
+}
