@@ -15,8 +15,12 @@ function nowServing(line){
   }
 }
 function currentLine(line) {
+  if (line.length>0){
+  return 'The line is currently:'+
   for(var i = 0;i< line.length;i++){
   line[i] = name
-  return i+1+'.' + name 
-  }
+  return i+1+'. ' + name+', '
 }
+  
+}
+  }
