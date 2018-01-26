@@ -21,6 +21,6 @@ function currentLine(line) {
   line[i] = name
   return i+1+'. ' + name+', '
 }
-  
+
 }
   }
