@@ -23,5 +23,10 @@ function currentLine(line) {
    list = list + ', '
  }
  }
+ if(line.length>1){
  return 'The line is currently: '+list
+ }
+ else {
+   return 'The line is currently empty.'
+ }
 }
