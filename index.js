@@ -25,5 +25,5 @@ return 'The line is currently';
 }
 else {
   return +' empty.';
-}  
+}
 }
