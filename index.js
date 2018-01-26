@@ -15,13 +15,7 @@ function nowServing(line){
   }
 }
 function currentLine(line) {
- 'The line is currently'
  list = []
- list = list + i+1+'. '+line[i];
-}
-return a
-}
-else {
- 'empty.';
-}
+ list = list + i+1+'. '+line[i]; 
+ return 'The line is currently'+list
 }
