@@ -19,7 +19,7 @@ function currentLine(line) {
   if (line.length>0){
    + ': ';
    for(var i = 0;i<line.length;i++){
-  name = line[i];
+  var name = line[i];
   var a = +i+1+'. ' + name+', ';
   return a
  }
