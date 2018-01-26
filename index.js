@@ -19,12 +19,12 @@ function currentLine(line) {
   if (line.length>0){
    + ': ';
    for(var i = 0;i<line.length;i++){
-  line[i] = name;
+  name = line[i];
   var a = +i+1+'. ' + name+', ';
   return a
  }
 }
 else {
-  return +' empty.';
+  return +' empty .';
 }
 }
