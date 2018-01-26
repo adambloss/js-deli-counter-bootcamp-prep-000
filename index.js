@@ -15,16 +15,16 @@ function nowServing(line){
   }
 }
 function currentLine(line) {
-return 'The line is currently';
+return 'The line is currently' +;
   if (line.length>0){
    + ': ';
    for(var i = 0;i<line.length;i++){
   var name = line[i];
   var a = +i+1+'. ' + name+', ';
-  return a
+  a
  }
 }
 else {
-  return +' empty .';
+  ' empty .';
 }
 }
