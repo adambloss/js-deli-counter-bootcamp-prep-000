@@ -7,10 +7,10 @@ function takeANumber(katzDeli, name) {
 }
 function nowServing(line){
   if (line.length>0){
-    return 'Currently serving' +
+    return 'Currently serving ' +
     line.shift(0)
   }
   else {
-    return 'The line is empty'
+    return 'Theew is nobody waiting to be served!'
   }
 }
