@@ -8,9 +8,10 @@ function takeANumber(katzDeli, name) {
 function nowServing(line){
   if (line.length>0){
     return 'Currently serving ' +
-    line.shift(0)
+    line.shift(0)+'.'
   }
   else {
     return 'Theew is nobody waiting to be served!'
   }
 }
+function 
