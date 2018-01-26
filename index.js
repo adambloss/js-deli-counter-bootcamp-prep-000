@@ -16,6 +16,8 @@ function nowServing(line){
 }
 function currentLine(line) {
  var list = []
+ for(i=0; i<line.length; i++){
  list = list + i+1+'. '+line[i];
+ }
  return 'The line is currently'+list
 }
