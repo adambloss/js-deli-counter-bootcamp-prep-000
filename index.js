@@ -14,4 +14,9 @@ function nowServing(line){
     return 'Theew is nobody waiting to be served!'
   }
 }
-function 
+function currentLine(line) {
+  for(var i = 0;i< line.length;i++){
+  line[i] = name
+  return i+1+'.' + name 
+  }
+}
