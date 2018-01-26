@@ -15,7 +15,7 @@ function nowServing(line){
   }
 }
 function currentLine(line) {
- return 'The line is currently'
+ 'The line is currently'
  if (line.length>0){
    + ': ';
    for(var i = 0;i<line.length;i++){
@@ -28,4 +28,3 @@ else {
  'empty.';
 }
 }
-
