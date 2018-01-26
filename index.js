@@ -21,10 +21,10 @@ function currentLine(line) {
    for(var i = 0;i<line.length;i++){
   var name = line[i];
   var a = +i+1+'. ' + name+', ';
-
+a
  }
 }
 else {
  return  ' empty .';
-})
+}
 }
